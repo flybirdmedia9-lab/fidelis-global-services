@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Fidelis Global</title>
+  <desc id="desc">Fidelis Global logo</desc>
+  <rect width="1280" height="420" rx="18" fill="#ffffff"/>
+  <g transform="translate(72 58)" fill="#070b26">
+    <path d="M72 0h292l-34 86H116C72 86 48 62 48 26V0h24z"/>
+    <path d="M151 131h194l-34 86H132l-42 140H0l44-148c18-61 56-78 107-78z"/>
+    <path d="M226 38 326 151 226 264h-60l67-113-67-113h60z" fill="#ffffff"/>
+    <path d="M308 131h78l-34 86h-88l44-86z"/>
+  </g>
+  <line x1="520" y1="63" x2="520" y2="204" stroke="#e8e8e8" stroke-width="3"/>
+  <text x="565" y="134" font-family="Arial Black, Montserrat, Arial, sans-serif" font-size="82" font-weight="900" font-style="italic" letter-spacing="2" fill="#070b26">FIDELIS</text>
+  <text x="565" y="218" font-family="Arial, Montserrat, sans-serif" font-size="72" font-weight="500" letter-spacing="4" fill="#070b26">GLOBAL</text>
+</svg>

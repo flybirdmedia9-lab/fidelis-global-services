@@ -180,11 +180,15 @@ p  { font-size: 1rem; color: var(--text-muted); }
 .brand {
   display: flex;
   align-items: center;
-  width: 220px;
+  width: 108px;
+  flex: 0 0 auto;
 }
 .brand-logo {
-  height: 50px;
+  display: block;
   width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 72px;
 }
 
 .nav {
@@ -665,10 +669,15 @@ p  { font-size: 1rem; color: var(--text-muted); }
   margin-bottom: 60px;
 }
 .footer-brand .brand {
-  background: var(--white);
-  padding: 10px;
-  width: 200px;
+  background: rgba(255,255,255,0.98);
+  border-radius: 18px;
+  box-shadow: 0 14px 30px rgba(0,0,0,0.14);
+  padding: 12px 14px;
+  width: 132px;
   margin-bottom: 20px;
+}
+.footer-brand .brand-logo {
+  max-height: 86px;
 }
 .footer-brand p {
   font-size: 0.95rem;
@@ -986,8 +995,8 @@ p  { font-size: 1rem; color: var(--text-muted); }
   .nav a:hover { background: var(--off-white); }
   .nav-toggle { display: flex; }
   .action-group { display: none; }
-  .brand { width: 180px; }
-  .brand-logo { height: 40px; }
+  .brand { width: 88px; }
+  .brand-logo { max-height: 58px; }
 
   .hero { padding: 60px 0; min-height: auto; }
   .hstat strong { font-size: 1.5rem; }
